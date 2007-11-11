@@ -1,0 +1,27 @@
+---
+name: FileZ
+
+Model::Schema:
+    schema_class: Schema
+    connect_info:
+        - DBI:your_dbd_driver_along_with_connection_info;
+        - your_username
+        - your_password
+
+session:
+    cookie_name: ident
+    storage: ./tmp
+
+authentication:
+    default_realm: members
+    realms:
+        members:
+            credential:
+                class: Password
+                password_field: password
+                password_type: hashed
+                password_hash_type: MD5
+            store:
+                class: DBIx::Class
+                user_class: Schema::Users
+                id_field: email

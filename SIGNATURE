@@ -1,0 +1,91 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 edb5e652c5b3189211d1a1b3cf3bedc6bb22e945 Changes
+SHA1 da01e5a40930a3867ad184cae42dc33b2ad13ec6 MANIFEST
+SHA1 4f0e9e2faa041347dceabd4088899eef12853027 META.yml
+SHA1 8a0b6a1508d865bb116f7454e111dd70e49a9af3 Makefile.PL
+SHA1 db6e1650d0f631c3ed1bbc41ab82c9a0ef65c8ec README
+SHA1 8a5f3923c93742c93c025286f6a680ef59c0b955 _source/Browser.wxg
+SHA1 2633a4dd368ebb7f19dccf02112278115683feee db.sql
+SHA1 9f96b8267fa5b714eb35e1ecaf248f6627757cb8 filez.yml
+SHA1 a0061ebf40720db40f7a81c852d01fdae8ca301d lib/FileZ.pm
+SHA1 0bd3c9a158757ac74b977360a51884bcd15558bb lib/FileZ/Controller/Root.pm
+SHA1 5b91f3cd4256b742158d5ca04cb97eee29606d49 lib/FileZ/Model/Schema.pm
+SHA1 2d32970c3c21a33477f6ca2173939e2faa2ed8c5 lib/FileZ/Model/Schema.pm.new
+SHA1 1af32219e5b9bba5176787df3ecf75d58d27c0ff lib/FileZ/View/TT.pm
+SHA1 9c07891ee21a515e5138135d0a22c74bceadd6ac lib/FileZ/View/Wx.pm
+SHA1 47962c3aa7b536dc3634f8cfb57017cdf7e97c72 lib/FileZWx/Default.pm
+SHA1 67f494fd3b97bf7dd4ab755d19495d03d0a4c78b lib/FileZWx/Files.pm
+SHA1 fdc247d494aef9cafc10a980022f54c42465a216 lib/FileZWx/Hello.pm
+SHA1 272d065cbd835acaeb99086bccce0ffb4488e855 lib/FileZWx/Login.pm
+SHA1 9d4fd77ef2d2331067cc2e5a912a1d2384a4af22 lib/Glade/Browser.pm
+SHA1 9b6033ba77ed382f3c41f48d3beae2979157cf9a lib/Glade/Login.pm
+SHA1 20899c36cb67edebfca88162ed4b0b7b0494f66f lib/Schema.pm
+SHA1 5b5d4e3d3c047b4eb055793f9f4c0aaa6046d7fc lib/Schema/Acls.pm
+SHA1 94bc8c11afcdf6e9925543e5435a57ed952965d5 lib/Schema/Files.pm
+SHA1 ff476b0ad8a407c6bafe7cb858a58eecaadecbfe lib/Schema/Folders.pm
+SHA1 ca4a939d80f7c396c99594f3cbecb97f096c02d3 lib/Schema/Users.pm
+SHA1 d0e6e97ee03475b0ae04bfa6071efaf634cff4ec lib/app.pl
+SHA1 6970bc48e7234cf17d8eecdfe84dff097996f047 root/favicon.ico
+SHA1 83c71dbdce6e41004c0785891ce091575adebf20 root/lib/config/col
+SHA1 cb40011be6ca3d030df614bf1927f8f8efaad11b root/lib/config/main
+SHA1 1faef5a9722505794c5df6be5edfe87716030eb1 root/lib/config/url
+SHA1 c440ee9e2dbe61fa73ff96b7bd4506d00baaccac root/lib/site/footer
+SHA1 d92384d0914e282537cb75ec7e0a4a9bd1a1a5a6 root/lib/site/header
+SHA1 df0492ed9a75fefbabbcb8d0f7052d2f4ec4b12f root/lib/site/html
+SHA1 ab90a1dc5164f20975eafe1a895d35950a28613f root/lib/site/layout
+SHA1 9e9883921e478d9d9db4484936a04239381e17b1 root/lib/site/wrapper
+SHA1 0fb15925be0674766294b27f82b99beff276b80c root/src/default.html
+SHA1 be8a8c72b6b4ec0c396e67eaf80b5fdc17edf9fd root/src/error.html
+SHA1 5ee91134da0070f86577d187f77f8bf1cd828c3d root/src/files.plain.html
+SHA1 8c8c7a51058307c07326e1108cc991e564b03846 root/src/login.html
+SHA1 257b986556472c9a3f68c3dbe4b7eb1faf41622f root/src/message.html
+SHA1 4247a0b855ca1e84a815af189f27a0aa782ee752 root/src/ttsite.css
+SHA1 46fe98d2bd94e4329a157f414d79387ef2581998 root/src/welcome.html
+SHA1 b4b8c80b71885cf49fefd4cf9681d06fb54e4fc8 root/static/images/btn_120x50_built.png
+SHA1 5d553cbf0f827e53896765af57ba85eba0998938 root/static/images/btn_120x50_built_shadow.png
+SHA1 c15f7a700abd0db49e2b46e26336bf984e208c2f root/static/images/btn_120x50_powered.png
+SHA1 3190320ef53e5a4683945312488961d3eda051f1 root/static/images/btn_120x50_powered_shadow.png
+SHA1 d3caf45ef3c742bcb0b174f5246ef5a8ea0fdcba root/static/images/btn_88x31_built.png
+SHA1 350697328cc4b1d7888b3c1a7895a68cf08340e7 root/static/images/btn_88x31_built_shadow.png
+SHA1 c886d43ba1e3d6dfbb6a943cdbfaba1e69d3c745 root/static/images/btn_88x31_powered.png
+SHA1 c5650f74e1bc813f9d29038a2c9693773bb5a827 root/static/images/btn_88x31_powered_shadow.png
+SHA1 9a97f9a1ff96e021f5af0a77141116c367c7e3d9 root/static/images/catalyst_logo.png
+SHA1 79553b0595a31a06cff8ea2cfbfb1f0362f15957 root/static/js/controls.js
+SHA1 e596c77c367208d86bcc1d1e831a2b44900af36e root/static/js/dragdrop.js
+SHA1 d597532fac8be85a9b87dcefa8c9391155f586eb root/static/js/effects.js
+SHA1 8544be1041cb59f5baca815d83d729fe1810b2cb root/static/js/prototype.js
+SHA1 46188f21bc027c8ac04354ec2685bc5b9fb5e725 root/static/js/swfobject.js
+SHA1 34420ab6ce22b29c36290d1226184fbaeeaac016 root/static/js/utils.js
+SHA1 f5de89e0dacda3bfb781a40763cf78c40de68737 script/filez_cgi.pl
+SHA1 cfeac7216dd8a9ccf7cc92048157a20ec40a69d7 script/filez_create.pl
+SHA1 ae466db6bcaeb2094f9d50defb304c735f8b95f9 script/filez_fastcgi.pl
+SHA1 f627c8f1ce06f9850e88994a1b6f42e6865b148e script/filez_server.pl
+SHA1 382c76f6d7606bd7dee0597f4b39d306e33e8e99 script/filez_test.pl
+SHA1 7e28ebd69c77aabdb171cc79f997aa53e48fa0dd script/filez_wx.pl
+SHA1 9cfde554733f2e149a138cd7963853777a88002f t/01app.t
+SHA1 69cb4e530158d9e3a3b8499cb2b356bed5c03c83 t/02pod.t
+SHA1 19e797985fada8c25f13ce5f0fb873999c3cbe44 t/03podcoverage.t
+SHA1 c0d4d08f52e217c3058f87fb65dff3d8a3eb5e7e t/model_Schema.t
+SHA1 744172af51e7917d1fdce3b769b096577321bf77 t/view_Wx.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (FreeBSD)
+
+iD8DBQFHNzuZTJ+A8YDqKz8RAr59AJ42IbT0Jze2K5XZi1IAf+/iiMS9yACfbLJ+
+tftSu11IF+n+FzPv4RFUk5w=
+=ILGZ
+-----END PGP SIGNATURE-----

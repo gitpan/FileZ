@@ -1,0 +1,17 @@
+--- #YAML:1.0
+name:                FileZ
+version:             0.01_01
+abstract:            A Catalyst application to share files on a website from your desktop
+license:             perl
+generated_by:        ExtUtils::MakeMaker version 6.36
+distribution_type:   module
+requires:     
+    Catalyst:                      0
+    Catalyst::Engine::Wx:          0.38
+    Test::More:                    0
+    version:                       0
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
+    version: 1.2
+author:
+    - Eriam Schaffter <eriam@cpan.org>

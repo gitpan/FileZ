@@ -1,0 +1,15 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+ <head>
+  <title>[% template.title or site.title %]</title>
+    <script LANGUAGE="JavaScript1.2" type="text/javascript" src="/static/js/prototype.js"></script>
+    <script LANGUAGE="JavaScript1.2" type="text/javascript" src="/static/js/effects.js"></script>
+    <script LANGUAGE="JavaScript1.2" type="text/javascript" src="/static/js/utils.js"></script>
+  <style type="text/css">
+[% PROCESS ttsite.css %]
+  </style>
+ </head>
+ <body>
+[% content %]
+ </body>
+</html>

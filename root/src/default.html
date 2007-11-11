@@ -1,0 +1,39 @@
+[% META title = 'Catalyst/TT View!' %]
+<p>
+  Yay!  You're looking at your files from a website ...
+</p>
+
+<p>
+    [% link         = Catalyst.user.email %]
+    [% uri          = base _ 'read_folder?folder_id=0' %]
+
+    [% Catalyst.prototype.link_to_remote( 
+            link, { 
+            url             => uri,
+            update          => 'files',
+            action          => 'update',
+            asynchronous    => 0,
+            condition       => condition
+        }, { entities => '' }) %]
+    <br/>
+[% FOREACH folder = folders %]
+    [% link         = folder.folder_name %]
+    [% uri          = base _ 'read_folder?folder_id=' _ folder.folder_id %]
+
+    [% Catalyst.prototype.link_to_remote( 
+            link, { 
+            url             => uri,
+            update          => 'files',
+            action          => 'update',
+            asynchronous    => 0,
+            condition       => condition
+        }, { entities => '' }) %]
+    <br/>
+[% END %]
+</p>
+
+<div id='files'>
+[% FOREACH file = files %]
+    [% file.file_name %]<br/>
+[% END %]
+</div>
